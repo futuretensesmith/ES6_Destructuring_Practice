@@ -4,6 +4,8 @@ import ReactDOM from "react-dom";
 import animals, { useAnimals } from "./data";
 import cars from "./practice";
 
+//In this lesson it shows how you destructure objects
+// to eliminate lengthy dot notation access to object properties
 const [honda, tesla] = cars;
 
 const { evil: isHondaEvil } = honda;
@@ -30,7 +32,7 @@ const {
 ReactDOM.render(
   <table>
     <tr>
-      <th>Brand</th>
+      <th>Model</th>
       <th>Top Speed</th>
     </tr>
     <tr>
