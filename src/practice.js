@@ -7,7 +7,8 @@ const cars = [
     speedStats: {
       topSpeed: 140,
       zeroToSixty: 8.5
-    }
+    },
+    evil: "no"
   },
   {
     model: "Tesla Model 3",
@@ -15,6 +16,8 @@ const cars = [
     speedStats: {
       topSpeed: 150,
       zeroToSixty: 3.2
-    }
+    },
+    evil: "yes"
   }
 ];
+export default cars;
